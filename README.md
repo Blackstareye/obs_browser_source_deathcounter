@@ -13,13 +13,15 @@ Glitch Link: <https://hip-holly-beak.glitch.me/>
 
 Project Page: <https://glitch.com/~hip-holly-beak>
 
+Demo (with Controls): <https://spring-chlorinated-seahorse.glitch.me>
+
 created by Blackeye / Blackstareye
 
 ## Getting started
 
 1. clone or remix the repo
-  a. if you have a glitch.com account, you can remix it via this link: <https://glitch.com/~hip-holly-beak>
-  b. clone the repo to your server. The server must run node js!
+   * if you have a glitch.com account, you can remix it via this [link](https://glitch.com/~hip-holly-beak)
+   * clone the repo to your server. The server must run node js!
 2. edit data.json file for setting the sound file (if needed)
 2. go to OBS and add a Browsersource with the url of your server
 3. if you have nightbot, insert the commands [below](#nightbot_commands)
@@ -33,6 +35,11 @@ optional: restrict the commands for mods only if needed
 - decrease death count
 - reset death count
 - set death count to a specific value
+
+### Enabling Controls 
+
+Uncomment the Block (Line 52) on index.html  to get Buttons like it is used on the DEMO.
+
 
 ## Note for Glitch Users
 
@@ -58,7 +65,7 @@ Nightbot Commands, change '<your_domain_url>' to the url of your deathcount serv
 
 ## License
 
-Distributed under the AGPL-3 License. See `LICENSE` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 Images are licensed under the License [Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
