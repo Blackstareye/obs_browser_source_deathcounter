@@ -43,7 +43,7 @@ Uncomment the Block (Line 52) on index.html  to get Buttons like it is used on t
 
 ## Note for Glitch Users
 
-1. the first nightbot command (request) can be a bit slow ! Glitch sets the container without requests on sleep mode, hence they need to wake up first.
+The first nightbot command (request) can be a bit slow ! Glitch sets the container without requests on sleep mode, hence they need to wake up first.
 
 ## Nightbot Commands
 
