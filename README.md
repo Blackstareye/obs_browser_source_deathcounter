@@ -43,23 +43,25 @@ Uncomment the Block (Line 52) on index.html  to get Buttons like it is used on t
 
 ## Note for Glitch Users
 
-1. the first nightbot command (request) can be a bit slow ! Glitch sets the container without requests on sleep mode, hence they need to wake up first.
+The first nightbot command (request) can be a bit slow ! Glitch sets the container without requests on sleep mode, hence they need to wake up first.
 
 ## Nightbot Commands
 
 Nightbot Commands, change '<your_domain_url>' to the url of your deathcount server
 
 ```sh
-!commands add !death+ $(eval const result=$(urlfetch json <your_domain_url>/inc); result["msg"])
-!commands add !death- $(eval const result=$(urlfetch json <your_domain_url>/dec); result["msg"])
-!commands add !deathreset $(eval const result=$(urlfetch json <your_domain_url>/reset); result["msg"])
-!commands add !deathset $(eval const result=$(urlfetch json <your_domain_url>/set?n=$(1)); result["msg"])
+!commands add !death+ $(eval const result=$(urlfetch json '<your_domain_url>'/inc); result["msg"])
+!commands add !death- $(eval const result=$(urlfetch json '<your_domain_url>'/dec); result["msg"])
+!commands add !deathreset $(eval const result=$(urlfetch json '<your_domain_url>'/reset); result["msg"])
+!commands add !deathset $(eval const result=$(urlfetch json '<your_domain_url>'/set?n=$(1)); result["msg"])
 ```
 
-!death+ : increase
-!death- : decrease
-!deathreset: reset
-!deathset _number_ : set death counter to _number_
+| Command         | Description     
+|--------------|-----------|
+| !death+ | **increase counter**      |
+| !death- | **decrease counter**  |
+| !deathreset | **reset counter**  |
+| !deathset _number_ | **set death counter to _number_**  |
 
 <!-- LICENSE -->
 
@@ -89,6 +91,6 @@ If you like my work and want to support me and my work, then this is the way:
 
 - [kofi](https://ko-fi.com/black_eye)
 - [patreon](https://www.patreon.com/black_eye_s?fan_landing=true)
-- [tipee](https://www.tipeeestream.com/blackeye/donation)
+- [tipeee](https://www.tipeeestream.com/blackeye/donation)
 
 Many Thanks ♥

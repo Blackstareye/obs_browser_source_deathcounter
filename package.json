@@ -2,9 +2,9 @@
   "//1": "",
   "//2": "",
   "//3": "",
-  "name": "lorem",
-  "version": "0.0.1",
-  "description": "lorem",
+  "name": "Death Counter for OBS Browser Source",
+  "version": "1.0.0",
+  "description": "This is a simple Death Counter using REST-API (nodejs) and the OBS Browser Source. The REST-API can then be triggered via Nightbot",
   "main": "backend.js",
   "scripts": {
     "start": "node backend.js"
