@@ -12,7 +12,7 @@ const SUCCESS = {
   RES: "[RESET] Counter reset to 0.",
   SET: "[SET] Counter set to {x}.",
 };
-//logInvalidKey.replace("{x}", key);
+
 
 let path = ".";
 let logObj = { msg: "" };
@@ -151,20 +151,6 @@ const server = http.createServer(function (req, res) {
     });
   
 } else if (req.url.match(/\.mp3/g)) {
-  // fs.access(path, fs.constants.F_OK | fs.constants.R_OK, (err) => {
-  //   console.log(`${path} ${err ? "does not exist" : "exists"}`);
-  //   if (err === null) {
-  //     //res.setHeader("Content-Type", "audio/mpeg");
-  //     res.write(fs.readFileSync(path));
-  //     res.statusCode = 200;
-  //     res.end();
-  //   } else {
-  //     res.setHeader("Content-Type", "text/html");
-  //     res.statusCode = 400; // 400 = Bad request
-  //     res.write("<h1>Sorry, this page is not available</h1>");
-  //     res.end();
-  //   }
-  // });
       res.write(fs.readFileSync(path));
       res.statusCode = 200;
       res.end();
@@ -185,15 +171,7 @@ server.listen(8000, function () {
 function displayHTML(res) {
   let data = fs.readFileSync("./index.html", "utf-8");
   res.write(data);
-  // fs.readFileS('./index.html', null, function (error, data) {
-  //     if (error) {
-  //         res.writeHead(404);
-  //         res.write('Whoops! File not found!');
-  //     } else {
-  //         res.write(data);
-  //     }
-  //     res.end();
-  // });
+  
 }
 
 function writeData(data) {

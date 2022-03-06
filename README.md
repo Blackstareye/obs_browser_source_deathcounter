@@ -50,10 +50,10 @@ Uncomment the Block (Line 52) on index.html  to get Buttons like it is used on t
 Nightbot Commands, change '<your_domain_url>' to the url of your deathcount server
 
 ```sh
-!commands add !death+ $(eval const result=$(urlfetch json <your_domain_url>/inc); result["msg"])
-!commands add !death- $(eval const result=$(urlfetch json <your_domain_url>/dec); result["msg"])
-!commands add !deathreset $(eval const result=$(urlfetch json <your_domain_url>/reset); result["msg"])
-!commands add !deathset $(eval const result=$(urlfetch json <your_domain_url>/set?n=$(1)); result["msg"])
+!commands add !death+ $(eval const result=$(urlfetch json '<your_domain_url>'/inc); result["msg"])
+!commands add !death- $(eval const result=$(urlfetch json '<your_domain_url>'/dec); result["msg"])
+!commands add !deathreset $(eval const result=$(urlfetch json '<your_domain_url>'/reset); result["msg"])
+!commands add !deathset $(eval const result=$(urlfetch json '<your_domain_url>'/set?n=$(1)); result["msg"])
 ```
 
 | Command         | Description     
