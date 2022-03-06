@@ -58,7 +58,7 @@ Nightbot Commands, change '<your_domain_url>' to the url of your deathcount serv
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the AGPL-3 License. See `LICENSE` for more information.
 
 Images are licensed under the License [Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
