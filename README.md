@@ -1,7 +1,7 @@
 # Death Counter for OBS Browser Source
 
 This is a simple Death Counter using REST-API (nodejs) and the OBS Browser Source.
-The REST-API can then be triggered via Nightbot see [Nightbot Commands](#nightbot_commands)
+The REST-API can then be triggered via Nightbot see [Nightbot Commands](#nightbot-commands)
 
 It has three parts:
 
@@ -24,7 +24,7 @@ created by Blackeye / Blackstareye
    * clone the repo to your server. The server must run node js!
 2. edit data.json file for setting the sound file (if needed)
 2. go to OBS and add a Browsersource with the url of your server
-3. if you have nightbot, insert the commands [below](#nightbot_commands)
+3. if you have nightbot, insert the commands [below](#nightbot-commands)
 4. Have fun
 
 optional: restrict the commands for mods only if needed
@@ -56,16 +56,19 @@ Nightbot Commands, change '<your_domain_url>' to the url of your deathcount serv
 !commands add !deathset $(eval const result=$(urlfetch json <your_domain_url>/set?n=$(1)); result["msg"])
 ```
 
-!death+ : increase
-!death- : decrease
-!deathreset: reset
-!deathset _number_ : set death counter to _number_
+| Command         | Description     
+|--------------|-----------|
+| !death+ | **increase counter**      |
+| !death- | **decrease counter**  |
+| !deathreset | **reset counter**  |
+| !deathset _number_ | **set death counter to _number_**  |
 
 <!-- LICENSE -->
 
 ## License
 
 Distributed under the APGL-3 License. See `LICENSE` for more information.
+
 Images are licensed under the License [Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 <!-- CONTACT -->

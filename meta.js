@@ -1,1 +1,0 @@
-//var base = 'https://hip-holly-beak.glitch.me';
