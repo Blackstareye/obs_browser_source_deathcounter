@@ -1,0 +1,15 @@
+{
+  "//1": "",
+  "//2": "",
+  "//3": "",
+  "name": "lorem",
+  "version": "0.0.1",
+  "description": "lorem",
+  "main": "backend.js",
+  "scripts": {
+    "start": "node backend.js"
+  },
+  "engines": {
+    "node": "13.8.0"
+  }
+}
