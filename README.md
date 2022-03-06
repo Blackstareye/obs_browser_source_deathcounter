@@ -75,7 +75,7 @@ Images are licensed under the License [Attribution-NonCommercial-NoDerivatives 4
 
 ## Contact
 
-Blackeye - [@BlackeyeM](https://twitter.com/BlackeyeM) - private_blackeye+linux_origin@posteo.de
+Blackeye - [@BlackeyeM](https://twitter.com/BlackeyeM) - private_blackeye+deathcounter@posteo.de
 
 Project Link: [https://github.com/Blackstareye/obs_browser_source_deathcounter](https://github.com/Blackstareye/linux_origin)
 
