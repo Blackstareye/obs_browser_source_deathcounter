@@ -91,6 +91,6 @@ If you like my work and want to support me and my work, then this is the way:
 
 - [kofi](https://ko-fi.com/black_eye)
 - [patreon](https://www.patreon.com/black_eye_s?fan_landing=true)
-- [tipee](https://www.tipeeestream.com/blackeye/donation)
+- [tipeee](https://www.tipeeestream.com/blackeye/donation)
 
 Many Thanks ♥
