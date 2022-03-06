@@ -13,6 +13,8 @@ Glitch Link: <https://hip-holly-beak.glitch.me/>
 
 Project Page: <https://glitch.com/~hip-holly-beak>
 
+Demo (with Controls): <https://spring-chlorinated-seahorse.glitch.me>
+
 created by Blackeye / Blackstareye
 
 ## Getting started
@@ -33,6 +35,11 @@ optional: restrict the commands for mods only if needed
 - decrease death count
 - reset death count
 - set death count to a specific value
+
+### Enabling Controls 
+
+Uncomment the Block (Line 52) on index.html  to get Buttons like it is used on the DEMO.
+
 
 ## Note for Glitch Users
 
